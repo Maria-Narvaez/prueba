@@ -30,4 +30,18 @@ print(f"Suma = {a+b}")
 print(f"Suma = {c+d}")
 
 #DESARROLLAR LA -, *,/,//,**
+print(f"Resta = {a-b}")
+print(f"Resta = {c-d}")
+
+print(f"Multiplicacion = {a*b}")
+print(f"Multiplicacion = {c*d}")
+
+print(f"Division = {a/b}")
+print(f"Division = {c/d}")
+
+print(f"Division entera = {a//b}")
+print(f"Division entera = {c//d}")
+
+print(f"potencia = {a//b}")
+print(f"potencia= {c//d}")
 
