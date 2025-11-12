@@ -136,3 +136,7 @@ for caracter in palabra:
         print(f"LAS VOCALES QUE INGRESO EN LA PALABRA SON => {caracter}") 
         
 # Desarrolle una app en python que permita imprimir la tabla de multiplicar de un número ingresado por teclado
+numero = input("Por favor, ingrese el numero de la tabla que desea ver ")
+for caracter in numero:
+    tabla = numero
+    print(f"{tabla}")
