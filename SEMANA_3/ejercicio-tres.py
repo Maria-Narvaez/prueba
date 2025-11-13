@@ -127,7 +127,7 @@ for numero in range (1, 6):
         else:
             print("ERROR, DIGITE UN NUMERO DEL 1 AL 5")
 """
-"""
+
 # Desarrolle una app en python que permita mostrar solo las vocales de una palabra
 
 palabra = input("POR FAVOR INGRESE UNA PALABRA: ")
@@ -135,6 +135,7 @@ vocales = ["a", "e", "i", "o", "u"]
 for caracter in palabra:
     if caracter in vocales:
         print(f"LAS VOCALES QUE INGRESO EN LA PALABRA SON => {caracter}") 
+        
 """      
 
 # Desarrolle una app en python que permita imprimir la tabla de multiplicar de un número ingresado por teclado
@@ -145,3 +146,4 @@ for caracter in range (1,11):
     tabla = numero* caracter
     print(f" {numero} * {caracter} = {tabla}")
     
+"""
