@@ -105,16 +105,17 @@ cadena = input("Por favor, ingrese una cadena de caracteres: ")
 
 for caracter in cadena:
     print(caracter)
-"""    
 """  
-#EJERCICIOS EN CLASE    
-# Desarrolle una app en python que permita sumar los números de 1 al 100
+#EJERCICIOS EN CLASE     
+"""  
+ 
+#1 Desarrolle una app en python que permita sumar los números de 1 al 100
 for numero in range (1, 101):
     print(f"NUMERO:: {numero}")
 print("\n\nFIN DEL PROGRAMA\n\n")
  """  
 """  
-# Desarrolle una app en python que permita calcular el cuadrado de los números de 1 al 5
+#2 Desarrolle una app en python que permita calcular el cuadrado de los números de 1 al 5
 
 for numero in range (1, 6):
     
@@ -127,8 +128,8 @@ for numero in range (1, 6):
         else:
             print("ERROR, DIGITE UN NUMERO DEL 1 AL 5")
 """
-
-# Desarrolle una app en python que permita mostrar solo las vocales de una palabra
+"""
+#3 Desarrolle una app en python que permita mostrar solo las vocales de una palabra
 
 palabra = input("POR FAVOR INGRESE UNA PALABRA: ")
 vocales = ["a", "e", "i", "o", "u"]
@@ -137,8 +138,8 @@ for caracter in palabra:
         print(f"LAS VOCALES QUE INGRESO EN LA PALABRA SON => {caracter}") 
         
 """      
-
-# Desarrolle una app en python que permita imprimir la tabla de multiplicar de un número ingresado por teclado
+"""
+#4 Desarrolle una app en python que permita imprimir la tabla de multiplicar de un número ingresado por teclado
 
 numero = int(input("Digite un número para imprimir la tabla de multicar: "))
 print(f"TABLA DE MULTIPLICAR DEL {numero} ")
